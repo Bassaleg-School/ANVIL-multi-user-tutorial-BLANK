@@ -34,7 +34,7 @@ db_schema:
     server: full
     title: Categories
 dependencies: []
-name: Clone of News App
+name: Anvil Login Tutorial
 package_name: News_App
 renamed: true
 runtime_options:
