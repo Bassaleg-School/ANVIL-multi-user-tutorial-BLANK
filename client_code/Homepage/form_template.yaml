@@ -24,7 +24,7 @@ components:
       underline: false
       visible: true
     type: Button
-  - layout_properties: {grid_position: 'XRGDXR,JQCHKL', slot: title}
+  - layout_properties: {grid_position: 'FXVFZA,KSDJYL'}
     name: articles_panel
     properties: {background: '', border: '', foreground: '', item_template: ArticleView, items: null, role: null, spacing_above: small, spacing_below: small, tooltip: '', visible: true}
     type: RepeatingPanel

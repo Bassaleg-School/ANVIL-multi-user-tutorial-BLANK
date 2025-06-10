@@ -33,6 +33,11 @@ db_schema:
       type: string
     server: full
     title: Categories
+  table_4:
+    client: none
+    columns: []
+    server: full
+    title: Table 4
   users:
     client: none
     columns:
