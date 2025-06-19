@@ -12,6 +12,7 @@ def add_article(article_dict):
   if current_user is not None:
     app_tables.articles.add_row(
     created=datetime.now(),
+    user = current_user,
     **article_dict
   )
 
