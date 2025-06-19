@@ -8,7 +8,9 @@ from datetime import datetime
 
 @anvil.server.callable
 def add_article(article_dict):
-  app_tables.articles.add_row(
+  current_user = anvil.users.get_user()
+  if current_user is not None:
+    app_tables.articles.add_row(
     created=datetime.now(),
     **article_dict
   )
