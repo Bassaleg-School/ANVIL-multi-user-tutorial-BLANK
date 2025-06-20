@@ -45,3 +45,4 @@ def delete_article(article):
     article.delete()
   else:
     raise Exception("Article does not exist")
+

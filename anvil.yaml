@@ -23,6 +23,10 @@ db_schema:
       name: category
       target: categories
       type: link_single
+    - admin_ui: {width: 200}
+      name: user
+      target: users
+      type: link_single
     server: full
     title: Articles
   categories:
@@ -62,6 +66,9 @@ db_schema:
     - admin_ui: {width: 200}
       name: signed_up
       type: datetime
+    - admin_ui: {width: 200}
+      name: email_confirmation_key
+      type: string
     server: full
     title: Users
 dependencies: []
